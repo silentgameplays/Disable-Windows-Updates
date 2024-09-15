@@ -18,7 +18,7 @@ sc config "UsoSvc" start= disabled
 
 REM Change Windows Update Medic Service Startup Type to Disabled (in Services)
 
-echo Disable Windows Update Medic Servic
+echo Disable Windows Update Medic Service
 
 net stop "WaaSMedicSvc"
 
