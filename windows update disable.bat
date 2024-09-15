@@ -24,7 +24,6 @@ net stop "WaaSMedicSvc"
 
 sc config "WaaSMedicSv" start= disabled 
 
-
 echo Disable Windows Update
 
 @echo off
