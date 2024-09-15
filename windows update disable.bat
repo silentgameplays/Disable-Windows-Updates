@@ -2,7 +2,7 @@
 
 REM Change Windows Update Service Startup Type to Disabled (in Services)
 
-echo Disable Windows Update Startup Type
+echo Disable Windows Update Service
 
 net stop "wuauserv"
 
@@ -24,6 +24,6 @@ net stop "WaaSMedicSvc"
 
 sc config "WaaSMedicSv" start= disabled 
 
-echo Disable Windows Update
+echo Windows Update Disabled
 
 @echo off
